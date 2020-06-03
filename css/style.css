@@ -50,6 +50,16 @@ body {
     margin: 2em 0 1em 0;
 }
 
+.card-header:hover {
+    color: rgb(210,210,210);
+    background-color: rgba(0,0,0,0.8); 
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card-header h1:hover {
+  text-decoration: underline; 
+}
+
 section > h1 {
     margin-top: 2em;
 }
@@ -57,7 +67,7 @@ section > h1 {
 #footer {
   padding: 20px 0;
   text-align: center;
-  background-color: #111111;
+  background-color: rgba(0,0,0,0.85);
   text-decoration: none;
 }
 
